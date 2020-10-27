@@ -1,0 +1,74 @@
+server:
+  port: 8088
+
+---
+
+spring:
+  profiles: default
+  cloud:
+    gateway:
+      routes:
+        - id: Book
+          uri: http://localhost:8081
+          predicates:
+            - Path=/books/**/customers/** 
+        - id: Rental
+          uri: http://localhost:8082
+          predicates:
+            - Path=/bookRentals/** 
+        - id: Delivery
+          uri: http://localhost:8083
+          predicates:
+            - Path=/bookDeliveries/** 
+        - id: Viewer
+          uri: http://localhost:8084
+          predicates:
+            - Path= /books/**/rentals/**/deliveries/**
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins:
+              - "*"
+            allowedMethods:
+              - "*"
+            allowedHeaders:
+              - "*"
+            allowCredentials: true
+
+
+---
+
+spring:
+  profiles: docker
+  cloud:
+    gateway:
+      routes:
+        - id: Book
+          uri: http://Book:8080
+          predicates:
+            - Path=/books/**/customers/** 
+        - id: Rental
+          uri: http://Rental:8080
+          predicates:
+            - Path=/bookRentals/** 
+        - id: Delivery
+          uri: http://Delivery:8080
+          predicates:
+            - Path=/bookDeliveries/** 
+        - id: Viewer
+          uri: http://Viewer:8080
+          predicates:
+            - Path= /books/**/rentals/**/deliveries/**
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins:
+              - "*"
+            allowedMethods:
+              - "*"
+            allowedHeaders:
+              - "*"
+            allowCredentials: true
+
+server:
+  port: 8080
