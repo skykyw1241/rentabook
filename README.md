@@ -1,10 +1,10 @@
 # Team 3 - Book Rental (책 대여 서비스)
 ## 구현 Repository
 1. 책 상품 관리: https://github.com/team34final/rentabook/tree/main/Book
-2. 주문 관리:
-3. 배송 관리:
-4. 고객 페이지:
-5. 게이트웨이:
+2. 주문 관리: https://github.com/team34final/rentabook/tree/main/Rental
+3. 배송 관리: https://github.com/team34final/rentabook/tree/main/Delivery
+4. 고객 페이지: https://github.com/team34final/rentabook/tree/main/Viewer
+5. 게이트웨이: https://github.com/team34final/rentabook/tree/main/gateway
 
 ## Table of Contents
 * 서비스 시나리오
