@@ -44,5 +44,7 @@ AS-IS 조직 -> TO-BE 조직
 
 ### Event Storming
 
+ 
+
 
 
