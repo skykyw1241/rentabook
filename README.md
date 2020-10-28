@@ -81,7 +81,21 @@ CQRS 를 위한 stock 서비스는 pom.xml 인메모리 DB인 hsqldb 사용 적�
 
 
 ### API 게이트웨이
-소스...
+1. Gateway 설정<br>
+![Gateway_ 설정_yaml](https://user-images.githubusercontent.com/73535272/97379145-74349280-1907-11eb-9e07-78aeb5aa399d.JPG)
+<br>
+
+2. Gateway rental  설정<br>
+![Gateway_rental생성](https://user-images.githubusercontent.com/73535272/97379165-7f87be00-1907-11eb-9f6f-9f4ab3f7cb7e.JPG)
+<br>
+
+3. Gateway 정보조회<br>
+![Gateway_정보조회](https://user-images.githubusercontent.com/73535272/97379181-8adae980-1907-11eb-80b2-1595781751d0.JPG)
+<br>
+
+4. Gateway 직접정보조회<br>
+![Gateway_직접정보조회](https://user-images.githubusercontent.com/73535272/97379198-975f4200-1907-11eb-96f2-94b3a6e50938.JPG)
+<br>
 
 
 ## 운영
