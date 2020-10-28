@@ -87,7 +87,7 @@ AS-IS 조직(Horizontally-Aligned) -> TO-BE 조직(Vertically-Aligned)
 ### CI/CD설정
 ...소스
 
-### 동기식 호출/서킷 브레이킹/장애격리
-소스..
+### Autoscale
 
+### HPA 적용
 
