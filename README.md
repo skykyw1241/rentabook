@@ -17,15 +17,12 @@
   * Request-Response 아키텍쳐 구현
   * 이벤트 드라이븐 아키텍처 구현
   * Gateway 적용
-  *
-  * Polyglot Programming
-  *
   * 동기식 호출
   * 비동기식 호출과 Eventual Consistency
 * 운영
   * CI/CD 설정
-  * Autoscale
-  * HPA 적용
+  * Liveness
+  * HPA 적용(Autoscale)
   
   
 
@@ -105,9 +102,9 @@ CQRS 를 위한 stock 서비스는 pom.xml 인메모리 DB인 hsqldb 사용 적�
 ### CI/CD설정
 ...소스
 
-### Autoscale
+### Liveness
 
-### HPA 적용
+### HPA 적용(Autoscale)
 1. HPA 속성 지정<br>
 ![HPA_kubectl get all_replica 속성 지정](https://user-images.githubusercontent.com/73535272/97378949-f53f5a00-1906-11eb-9be7-d64f83c6e082.JPG)
 <br>
