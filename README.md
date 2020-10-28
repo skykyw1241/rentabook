@@ -18,7 +18,7 @@
   * 이벤트 드라이븐 아키텍처 구현
   * Gateway 적용
   *
-  * 폴리글랏 퍼시스턴스
+  * Polyglot Programming
   *
   * 동기식 호출
   * 비동기식 호출과 Eventual Consistency
