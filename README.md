@@ -6,6 +6,7 @@
 4. 고객 페이지: https://github.com/team34final/rentabook/tree/main/Viewer
 5. 게이트웨이: https://github.com/team34final/rentabook/tree/main/gateway
 
+
 ## Table of Contents
 * 서비스 시나리오
   * 시나리오 테스트 결과
@@ -18,6 +19,7 @@
   * 비동기식 호출과 Eventual Consistency
 * 운영
   * CI/CD 설정
+
 
 ## 서비스 시나리오
 ### 기능적 요구사항
@@ -38,6 +40,7 @@
   iii.	주문 취소 시 재고 관리가 되지 않더라도 취소되어야 한다.
 3.	성능\
   i.	고객이 자신의 주문 이력을 확인할 수 있다.
+
 
 ## 분석/설계
 AS-IS 조직 -> TO-BE 조직
