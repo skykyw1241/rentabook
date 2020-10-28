@@ -13,14 +13,21 @@
   * 시나리오 테스트 결과
 * 분석/설계
 * 구현
+  * CQRS
   * DDD의 적용
+  * Request-Response 아키텍쳐 구현
+  * 이벤트 드라이븐 아키텍처 구현
   * Gateway 적용
+  *
   * 폴리글랏 퍼시스턴스
-  * 동기식 호출과 Fallback 처리
+  *
+  * 동기식 호출
   * 비동기식 호출과 Eventual Consistency
 * 운영
   * CI/CD 설정
-  * 동기식 호출/서킷 브레이킹/장애격리
+  * Autoscale
+  * HPA 적용
+  
   
 
 
@@ -57,6 +64,8 @@ AS-IS 조직(Horizontally-Aligned) -> TO-BE 조직(Vertically-Aligned)
 
 
 ## 구현
+### CQRS
+소스..
 ### DDD의 적용
 소스..
 
