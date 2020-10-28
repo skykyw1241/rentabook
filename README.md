@@ -7,6 +7,7 @@
 5. 게이트웨이: https://github.com/team34final/rentabook/tree/main/gateway
 
 
+
 ## Table of Contents
 * 서비스 시나리오
   * 시나리오 테스트 결과
@@ -19,6 +20,8 @@
   * 비동기식 호출과 Eventual Consistency
 * 운영
   * CI/CD 설정
+  * 동기식 호출/서킷 브레이킹/장애격리
+  
 
 
 ## 서비스 시나리오
@@ -44,6 +47,8 @@
 
 ## 분석/설계
 AS-IS 조직 -> TO-BE 조직
+
+
 
 ### Event Storming
 ![이벤트스토밍 설계](https://user-images.githubusercontent.com/73535272/97375299-d12b4b00-18fd-11eb-9b0b-871b1e3588a2.JPG)
