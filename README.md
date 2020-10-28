@@ -22,6 +22,7 @@
 * 운영
   * CI/CD 설정
   * Liveness
+  * Readiness
   * HPA 적용(Autoscale)
   
   
@@ -137,6 +138,11 @@ AS-IS 조직(Horizontally-Aligned) -> TO-BE 조직(Vertically-Aligned)
 
 3. pod 내 오류로 인한 셧다운 처리<br>
 ![liveness_2_pod내 로그_ 오류로 shutdown 처리](https://user-images.githubusercontent.com/73535272/97382933-c7124800-190f-11eb-9b4d-d091ecb87a37.JPG)
+
+### Readiness
+1. readiness seige 과정
+
+2. readiness seige 결과
 
 ### HPA 적용(Autoscale)
 1. HPA 속성 지정<br>
