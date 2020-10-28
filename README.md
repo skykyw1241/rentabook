@@ -128,6 +128,14 @@ AS-IS 조직(Horizontally-Aligned) -> TO-BE 조직(Vertically-Aligned)
 ![CI_4_pod_deploy 생성](https://user-images.githubusercontent.com/73535272/97382403-abf30880-190e-11eb-9e01-169dfa630300.JPG)
 
 ### Liveness
+1. yaml 설정<br>
+![liveness_0_설정 yaml](https://user-images.githubusercontent.com/73535272/97382860-ab0ea680-190f-11eb-8852-64c2b77d034c.JPG)
+
+2. deploy 생성<br>
+![liveness_1_yaml로 deploy 생성](https://user-images.githubusercontent.com/73535272/97382888-b792ff00-190f-11eb-91de-94049b2672b3.JPG)
+
+3. pod 내 오류로 인한 셧다운 처리<br>
+![liveness_2_pod내 로그_ 오류로 shutdown 처리](https://user-images.githubusercontent.com/73535272/97382933-c7124800-190f-11eb-9b4d-d091ecb87a37.JPG)
 
 ### HPA 적용(Autoscale)
 1. HPA 속성 지정<br>
