@@ -81,11 +81,6 @@ AS-IS 조직(Horizontally-Aligned) -> TO-BE 조직(Vertically-Aligned)
 ### 이벤트 드리븐 아키텍처 구현
 소스 ...
 
-### Polyglot Programming
-CQRS 를 위한 stock 서비스는 pom.xml 인메모리 DB인 hsqldb 사용 적용 함<br>
-![polyglot](https://user-images.githubusercontent.com/73535272/97377031-57e22700-1902-11eb-8f73-845f700627c6.png)
-
-
 ### API 게이트웨이
 1. Gateway 설정<br>
 ![Gateway_ 설정_yaml](https://user-images.githubusercontent.com/73535272/97379145-74349280-1907-11eb-9e07-78aeb5aa399d.JPG)
