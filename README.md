@@ -37,14 +37,14 @@
 6. 고객이 자신의 주문 정보를 확인할 수 있다.
 
 ### 비기능적 요구사항
-1.	트랜잭션\
-  i.	결제가 되지 않은 주문 건은 접수가 불가하다.\
+1.	트랜잭션<br>
+  i.	결제가 되지 않은 주문 건은 접수가 불가하다.<br>
   ii.	재고가 0인 경우 접수가 불가하다.
-2.	장애격리\
-  i.	배송관리 기능이 수행되지 않더라도 대여 접수가 가능하다.\
-  ii.	대여 시스템에 부하가 걸리면 대여 신청을 보류한다.\
+2.	장애격리<br>
+  i.	배송관리 기능이 수행되지 않더라도 대여 접수가 가능하다.<br>
+  ii.	대여 시스템에 부하가 걸리면 대여 신청을 보류한다.<br>
   iii.	주문 취소 시 재고 관리가 되지 않더라도 취소되어야 한다.
-3.	성능\
+3.	성능<br>
   i.	고객이 자신의 주문 이력을 확인할 수 있다.
 
 
@@ -76,10 +76,24 @@ AS-IS 조직(Horizontally-Aligned) -> TO-BE 조직(Vertically-Aligned)
 ![view](https://user-images.githubusercontent.com/73535272/97380515-8e23a480-190a-11eb-8e9f-b694a42f4f94.jpg)
 
 ### Request-Response 아키텍쳐 구현
-소스..
+1. Req-Res 호출<br>
+![req-res_1_호출 소스](https://user-images.githubusercontent.com/73535272/97381900-64b84800-190d-11eb-991e-c18770bd9f04.JPG)
+
+2. Req-Res 처리<br>
+![req-res_2_처리 controller](https://user-images.githubusercontent.com/73535272/97381905-6a159280-190d-11eb-88b8-c2212245e8c4.JPG)
 
 ### 이벤트 드리븐 아키텍처 구현
-소스 ...
+1. 이벤트 드리븐 - 비동기 호출<br>
+![이벤트 드리븐 -1_비동기호출](https://user-images.githubusercontent.com/73535272/97381919-713ca080-190d-11eb-93f5-e34197932af5.JPG)
+
+2. 이벤트 드리븐 - class 선언<br>
+![이벤트 드리븐 -2_ 이벤트 class 선언](https://user-images.githubusercontent.com/73535272/97381924-76015480-190d-11eb-81b7-ccd32ab00015.JPG)
+
+3. 이벤트 드리븐 - publish<br>
+![이벤트 드리븐 -3_ publish](https://user-images.githubusercontent.com/73535272/97381928-7994db80-190d-11eb-8bf1-78622f1f4a1a.JPG)
+
+4. 이벤트 드리븐 - 수신<br>
+![이벤트 드리븐 -4_ 수신](https://user-images.githubusercontent.com/73535272/97381934-7ef22600-190d-11eb-849d-14da20a4516f.JPG)
 
 ### API 게이트웨이
 1. Gateway 설정<br>
