@@ -46,7 +46,7 @@
 
 
 ## 분석/설계
-AS-IS 조직 -> TO-BE 조직
+AS-IS 조직(Horizontally-Aligned) -> TO-BE 조직(Vertically-Aligned)
 
 
 
@@ -67,7 +67,10 @@ AS-IS 조직 -> TO-BE 조직
 소스 ...
 
 ### 롤리그랏 프로그래밍
-소스...
+CQRS 를 위한 stock 서비스는 인메모리 DB인 hsqldb 사용 적용
+pom.xml에 구현
+
+
 
 ### API 게이트웨이
 소스...
