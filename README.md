@@ -13,7 +13,6 @@
   * 시나리오 테스트 결과
 * 분석/설계
 * 구현
-  * CQRS
   * DDD의 적용
   * Request-Response 아키텍쳐 구현
   * 이벤트 드라이븐 아키텍처 구현
@@ -64,10 +63,14 @@ AS-IS 조직(Horizontally-Aligned) -> TO-BE 조직(Vertically-Aligned)
 
 
 ## 구현
-### CQRS
-소스..
 ### DDD의 적용
-소스..
+분석/설계 단계에서 도출된 MSA는 총 4개로 다음과 같음
+* 고객페이지(view)는 CQRS를 위한 서비스
+1. 책 상품 관리
+2. 주문 관리
+3. 배송 관리
+4. 고객 페이지
+
 
 ### Request-Response 아키텍쳐 구현
 소스..
