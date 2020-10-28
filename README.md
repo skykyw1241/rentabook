@@ -43,7 +43,7 @@
 AS-IS 조직 -> TO-BE 조직
 
 ### Event Storming
-
+![이벤트스토밍 설계](https://user-images.githubusercontent.com/73535272/97375299-d12b4b00-18fd-11eb-9b0b-871b1e3588a2.JPG)
  
 
 
