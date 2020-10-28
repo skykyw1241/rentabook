@@ -91,4 +91,9 @@ CQRS 를 위한 stock 서비스는 pom.xml 인메모리 DB인 hsqldb 사용 적�
 ### Autoscale
 
 ### HPA 적용
+1. HPA 속성 지정<br>
+![HPA_kubectl get all_replica 속성 지정](https://user-images.githubusercontent.com/73535272/97378949-f53f5a00-1906-11eb-9be7-d64f83c6e082.JPG)
+<br>
 
+2. HPA 실행<br>
+![HPA_replica 실행됨](https://user-images.githubusercontent.com/73535272/97378959-fd979500-1906-11eb-9c2f-9bf10dd88a9b.JPG)
